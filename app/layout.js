@@ -1,5 +1,6 @@
 import Navbar from "../components/navbar.jsx";
 import {Roboto} from 'next/font/google';
+import "@/styles/globals.css";
 
 export const metadata = {
   title: 'Mi Tienda con Next.js - HomePage',
