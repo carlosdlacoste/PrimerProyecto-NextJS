@@ -1,5 +1,5 @@
 import PostCard from "@/components/postCard.jsx";
-import "@/styles/post.css";
+import "@/../styles/post.css";
 
 async function loadPosts(){
     const resp = await fetch(`https://jsonplaceholder.typicode.com/posts`)

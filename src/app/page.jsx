@@ -1,5 +1,5 @@
 "use client";
-import Users from "../components/users";
+import Users from "@/components/users";
 import { useEffect, useRef } from "react";
 
 const Page = () => {
