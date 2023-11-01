@@ -20,7 +20,10 @@ const AboutPage = () => {
                 and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, 
                 sometimes by accident, sometimes on purpose (injected humour and the like).</p>
 
-            <button className="bg-sky-400 px-3 py-2" >
+            <button className="bg-sky-400 px-3 py-2" onClick={ () => {
+                router.push('/')
+            }
+            } >
                 Click
             </button>
         </>
