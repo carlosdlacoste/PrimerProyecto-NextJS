@@ -4,7 +4,7 @@ import "@/../styles/navbar.css";
 
 const NavBar = () => {
     return(
-        <nav className="navbar py-5">
+        <nav className="navbar py-3 px-7">
             <Link href='/'>
                 <h1 className="text-3xl font-bold">NextJS Project</h1>
             </Link>
